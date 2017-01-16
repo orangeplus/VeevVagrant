@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-homesteadRoot=~/.homestead
+veevRoot=~/.homestead
 
-mkdir -p "$homesteadRoot"
+mkdir -p "$veevRoot"
 
-cp -i src/stubs/Homestead.yaml "$homesteadRoot/Homestead.yaml"
-cp -i src/stubs/after.sh "$homesteadRoot/after.sh"
-cp -i src/stubs/aliases "$homesteadRoot/aliases"
+cp -i src/stubs/Veev.yaml "$veevRoot/Veev.yaml"
+cp -i src/stubs/after.sh "$veevRoot/after.sh"
+cp -i src/stubs/aliases "$veevRoot/aliases"
 
-echo "Homestead initialized!"
+echo "Veev vagrant initialized!"

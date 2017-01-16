@@ -1,12 +1,12 @@
 @echo off
 
-set homesteadRoot=%HOMEDRIVE%%HOMEPATH%\.homestead
+set veevRoot=%HOMEDRIVE%%HOMEPATH%\.
 
-mkdir "%homesteadRoot%"
+mkdir "%veevRoot%"
 
-copy /-y src\stubs\Homestead.yaml "%homesteadRoot%\Homestead.yaml"
-copy /-y src\stubs\after.sh "%homesteadRoot%\after.sh"
-copy /-y src\stubs\aliases "%homesteadRoot%\aliases"
+copy /-y src\stubs\Veev.yaml "%veevRoot%\Veev.yaml"
+copy /-y src\stubs\after.sh "%veevRoot%\after.sh"
+copy /-y src\stubs\aliases "%veevRoot%\aliases"
 
-set homesteadRoot=
-echo Homestead initialized!
+set veevRoot=
+echo Veev vagrant initialized!

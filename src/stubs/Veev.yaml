@@ -15,7 +15,7 @@ folders:
 
 sites:
     - map: veev.dev
-      to: /home/vagrant/Code/Veev/web
+      to: /home/vagrant/Veev/web
 
 databases:
     - homestead

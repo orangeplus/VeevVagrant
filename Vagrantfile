@@ -7,8 +7,8 @@ require 'yaml'
 VAGRANTFILE_API_VERSION ||= "2"
 confDir = $confDir ||= File.expand_path("~/.homestead")
 
-homesteadYamlPath = confDir + "/Homestead.yaml"
-homesteadJsonPath = confDir + "/Homestead.json"
+homesteadYamlPath = confDir + "/Veev.yaml"
+homesteadJsonPath = confDir + "/Veev.json"
 afterScriptPath = confDir + "/after.sh"
 aliasesPath = confDir + "/aliases"
 
